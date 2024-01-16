@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "string": "cpp"
+    },
+    "java.debug.settings.onBuildFailureProceed": true
+}
