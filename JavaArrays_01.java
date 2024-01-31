@@ -17,6 +17,16 @@ public class JavaArrays_01 {
             }
             System.out.println();
         }
+        System.out.println("------------------------");
+        // 2D Arrays with different lengths: Jagged Arrays;
+        int arr3[][]={{1,2},{1,2,3,4},{1,2,3}};
+        for(int row=0;row<arr3.length;row++){
+            for(int col=0;col<arr3[row].length;col++){
+                System.out.print(arr3[row][col]+" ");
+            }
+            System.out.println();
+        }
+
 
     }
 }
