@@ -1,5 +1,8 @@
 class Calculate{
-    // Method overloading in add function
+    // Method overloading in add function: When a class has multiple methods with same name but with changed return type or changed arguments type or number of arguments
+    // Overloading can be done through two approaches
+    // -by changing the number of arguments
+    // -by changing dataType.
     public int adds(int a, int b){
         System.out.println("'adds' function called.");
         return a+b;
