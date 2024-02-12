@@ -10,6 +10,7 @@ class Student{
     public static void mystaticFunc(Student obj){
         System.out.println("From Static Method: "+obj.roll+" "+uniName);
     }
+    //for a static method in a class, the method cant access non-static class members thus we have to provide it with an obj instance to use it.
 }
 
 
