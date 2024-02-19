@@ -1,5 +1,10 @@
+import java.util.Scanner;
+
 class test{
     public static void main(String args[]){
-        System.out.println("Hello World!");
+        Scanner sc=new Scanner(System.in);
+        String a=sc.next();
+        char a1=a.charAt(0);
+        System.out.println(a1);
     }
 }
