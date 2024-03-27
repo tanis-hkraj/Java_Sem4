@@ -20,8 +20,8 @@ class Threads_17 {
         B obj2=new B();
 
         obj1.setPriority(Thread.MAX_PRIORITY);
-        obj2.start();
         obj1.start();
+        obj2.start();
 
         // Here A and B runs at the same time Parallely
     }
