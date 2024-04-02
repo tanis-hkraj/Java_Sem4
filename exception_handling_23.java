@@ -7,7 +7,7 @@ class exception_handling_23 {
         try{
             b=10/a;
             if(b==0){
-                throw new ArithmeticException("Zero as output is not allowed");
+                throw new ArithmeticException("Zero as output is not allowed"); // Forced Exception
             }
         }catch(ArithmeticException e){
             b=100/1;
